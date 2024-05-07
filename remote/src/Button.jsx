@@ -3,7 +3,7 @@ import "./Button.css";
 import useCount from "./store";
 
 const Button = () => {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useCount(0);
   return (
     <div>
       <button

@@ -12,8 +12,9 @@ export default defineConfig({
       // Modules to expose
       exposes: {
         "./Button": "./src/Button",
+        "./store": "./src/store",
       },
-      shared: ["react", "react-dom"],
+      shared: ["react", "react-dom", "jotai"],
     }),
   ],
   build: {
